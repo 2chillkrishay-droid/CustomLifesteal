@@ -1,0 +1,12 @@
+name: CustomLifesteal
+version: 1.0
+main: com.custom.lifesteal.Main
+api-version: '1.21'
+commands:
+  withdraw:
+    description: Withdraw your hearts into physical items
+    usage: /withdraw [amount]
+  resethearts:
+    description: Reset all players back to 10 hearts and unban eliminated players
+    usage: /resethearts
+    permission: lifesteal.admin
